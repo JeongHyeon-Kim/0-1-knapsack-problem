@@ -31,8 +31,9 @@ int knapsack(int n, int W, int price[], int weight[]){
 				printf("\n");
 			}
 			printf("\n");
-			sleep(1000); // for execute in linux
-			system("cls");
+			sleep(1); // for execute in linux
+			//system("cls");
+			system("clear"); // for execute in linux
         }
     }
 	//결과 출력 부분(실행 최종결과를 보기 위해선 여기를 주석 해제하고 윗 부분을 주석)
@@ -50,9 +51,9 @@ int main(){
 	////예제 1
 	//printf("12121623 정보통신공학과 김정현\n");
 	//int item_cnt = 3; //아이템 갯수
- //   int price[4] = {0, 10, 1, 100}; //아이템의 갯수 3개
- //   int weight[4] = {0, 4, 1, 11}; //각 무게
- //   int Weight = 10; //배낭 최대 무게 10kg
+	//int price[4] = {0, 10, 1, 100}; //아이템의 갯수 3개
+	//int weight[4] = {0, 4, 1, 11}; //각 무게
+	//int Weight = 10; //배낭 최대 무게 10kg
 
 	//clock_t start = clock();
 	//int max_val = knapsack(item_cnt, Weight, price, weight);
@@ -60,7 +61,7 @@ int main(){
 	//double t = (double)(end - start) / CLOCKS_PER_SEC;
 	//printf("\n소요 시간: %fs.\n", t);
 	//printf("max price: %d\n\n", max_val);
-	//
+	
 	////예제 2
 	//printf("12121623 정보통신공학과 김정현\n");
 	//int item_cnt2 = 4; //아이템 갯수

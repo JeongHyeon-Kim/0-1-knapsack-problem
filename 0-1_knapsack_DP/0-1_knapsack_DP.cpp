@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <Windows.h>
+//#include <Windows.h>
+#include <unistd.h> // for sleep function
 #include <stdlib.h>
 #include <time.h>
 int K[21][21]; //결과를 담을 행렬 생성
@@ -30,7 +31,7 @@ int knapsack(int n, int W, int price[], int weight[]){
 				printf("\n");
 			}
 			printf("\n");
-			Sleep(1000);
+			sleep(1000); // for execute in linux
 			system("cls");
         }
     }
